@@ -9,14 +9,7 @@ import (
 	"strings"
 )
 
-/*
- * Complete the 'miniMaxSum' function below.
- *
- * The function accepts INTEGER_ARRAY arr as parameter.
- */
-
 func miniMaxSum(arr []int32) {
-	// Write your code here
 	var answer []int64
 	for i := 0; i < len(arr); i++ {
 		var sum int64
